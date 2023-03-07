@@ -1,0 +1,52 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 2.5rem 8rem ;
+    align-items: center;
+}
+.menu__logo{
+    display: flex; 
+    align-items: center;
+}
+.menu__search{
+    font-size: 1rem;
+    height: 1.6rem;
+    margin: 0 3rem;
+    padding: .75rem 8rem .75rem 1.3rem;
+    border: none;
+    background: #F5F5F5;
+    border-radius: 3rem;
+    position: relative;
+
+}
+
+.menu__botao{
+    font-weight: 400;
+    font-size: 1rem;
+    color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    padding: .75rem 3rem;
+}
+@media(max-width:1050px){
+    .menu{
+        margin: 1rem 2rem;
+    }
+
+    .menu__search{
+        padding: 1rem 3rem 1rem 1rem;
+    }
+}
+
+@media(max-width:700px){
+    .menu{
+        
+    margin: 0.5rem;
+    }
+    .menu__search{
+        display: none;
+    }
+    .menu__botao{
+        padding: .5rem 2rem
+    }
+
+}

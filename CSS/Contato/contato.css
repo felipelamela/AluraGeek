@@ -1,0 +1,90 @@
+.contato{
+
+    background:#EAF2FD;
+}
+.contato__container{
+    padding: 3rem 0;
+    margin: 2.5rem 8rem ;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contato__container--esquerdo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.contato__logo{
+    max-width: 100vw;
+}
+.contato__container--links{
+    display: grid;
+}
+
+.contato__link{
+    text-decoration: none;
+    display: inline-block;
+    color: #464646;
+    padding: 0.7rem 0;
+    font-weight: 500;
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+}
+.forms__titulo{
+    color: #464646;
+    font-weight: 700;
+    margin: 0 0 0.5rem 0;
+}
+
+.forms__nome{
+    font-size: 1rem;
+    padding: 0.7rem;
+    margin:  0 0 1rem 0;
+    border: none;
+    border-radius: 6px;
+}
+
+.forms__msg{
+    font-size: 1rem;
+    padding: 0.7rem;
+    margin:  0 0 1rem 0;
+    border: none;
+    border-radius: 6px;
+    font-family: 'Raleway';
+    resize: none;
+}
+.forms__botao{
+    background:#2A7AE4;
+    border: none;
+    max-width: 190px;
+    padding: 1rem;
+    font-size: 1rem;
+    color: #fff;
+}
+
+@media(max-width:1050px){
+    .contato__container{
+        padding: 1rem 0;
+        margin: 2rem 2rem ;
+        grid-template-columns: 300px 1fr;
+    }
+    .contato__container--esquerdo{
+        grid-template-columns: 1fr;
+
+    }
+    .forms{
+        padding: 1rem 0 0 0;
+    }
+}
+@media(max-width:700px){
+    .contato__container{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .contato__container--esquerdo{
+        justify-content: center;
+    }
+}

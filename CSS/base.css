@@ -1,0 +1,24 @@
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+.titulo__produto {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1;
+    color: #464646;
+}
+
+.link__produto{
+font-size: 1rem;
+font-weight: 700;
+text-decoration: none;
+color: #2a7ae4;
+}
+.preco__produto{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #464646;
+}
