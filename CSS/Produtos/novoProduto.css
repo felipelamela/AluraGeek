@@ -1,0 +1,37 @@
+.novoProduto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.novoProduto__titulo{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 2rem 0 3rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 0 0 3rem 0;
+}
+
+.novoProduto__input{
+    border: none;
+    background: rgb(240, 240, 240);
+    resize: none;
+    font-size: 1.2rem;
+    padding: 0.9rem;
+    margin: 0.5rem 0 2rem;
+
+}
+
+.novoProduto__botao{
+    font-size: 1.2rem;
+    padding:1rem;
+    border: none;
+    color: #fff;
+    background-color: #2A7AE4;
+}
+

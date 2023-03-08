@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="./CSS/reset.css">
     <link rel="stylesheet" href="./CSS/base.css">
     <link rel="stylesheet" href="./CSS/Menu/menu.css">
-    <link rel="stylesheet" href="./CSS/Login/login.css">
+    <link rel="stylesheet" href="./CSS/Menu/menu_adm.css">
+    <link rel="stylesheet" href="./CSS/Produtos/novoProduto.css">
     <link rel="stylesheet" href="./CSS/Contato/contato.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,11 +22,33 @@
             <label class="label" for="menu__search"></label>
             <input type="text" id="menu__search" class="menu__search" placeholder="O que deseja encontrar?">
         </div>
+        <a href="./conta.html" class="menu__adm">Menu administrador</a>
     </header>
 
     <section class="novoProduto">
-        <h2 class="novoProduto__titulo"></h2>
+        <h2 class="novoProduto__titulo">Adicionar novo produto</h2>
+        <form action="" class="form">
 
+            <label for="novoProduto__url">URL da imagem</label>
+            <input type="text" id="novoProduto__url" class="novoProduto__input">
+
+            <label for="novoProduto__categoria">Categoria</label>
+            <input type="text" id="novoProduto__categoria" class="novoProduto__input">
+
+            <label for="novoProduto__nome">Nome do produto</label>
+            <input type="text" id="novoProduto__nome" class="novoProduto__input">
+
+            <label for="novoProduto__preco">Preço do produto</label>
+            <input type="text" id="novoProduto__preco" class="novoProduto__input">
+
+            <label for="novoProduto__descricao">Descrição do produto</label>
+            <textarea name="novoProduto__descricao" id="novoProduto__descricao" class="novoProduto__input" cols="30" rows="5"></textarea>
+            <input type="button" class="novoProduto__botao" value="Adicionar produto">
+
+
+        </form>
+            
+        
     </section>
 
 
