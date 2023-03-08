@@ -8,11 +8,21 @@
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0 0 1rem 0 ;
+    align-items: center;
 }
 .produto__titulo{
     font-size: 2rem;
     font-weight: 700;
 }
+.link__add__produto{
+    text-decoration: none;
+    color:rgb(240, 239, 239);
+    background: #2a7ae4;
+    padding: 1rem 1.2rem;
+}
+
+
+
 .produto__item{
     display: flex;
     gap: 1.5rem;
@@ -40,7 +50,6 @@
         justify-content: center;
     }
 }
-
 
 @media(max-width:700px){
     .produtos{
