@@ -4,7 +4,7 @@
 }
 .contato__container{
     padding: 3rem 0;
-    margin: 2.5rem 8rem ;
+    margin: 0 8rem ;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -67,7 +67,7 @@
 @media(max-width:1050px){
     .contato__container{
         padding: 1rem 0;
-        margin: 2rem 2rem ;
+        margin:0 2rem ;
         grid-template-columns: 300px 1fr;
     }
     .contato__container--esquerdo{
@@ -85,6 +85,6 @@
         gap: 2rem;
     }
     .contato__container--esquerdo{
-        justify-content: center;
+        align-self: center;
     }
 }
